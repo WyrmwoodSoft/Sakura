@@ -18,7 +18,7 @@ namespace Sakura.Controllers
 
         public IActionResult Contact()
         {
-            ViewBag.Title = "Contacts:";
+            ViewBag.Title = "Contact";
             return View();
         }
 
