@@ -1,46 +1,51 @@
 ﻿body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #808080;
+    color: darkred;
 }
 
-.rcorners1 {
-    border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 5px;
-    width: 400px;
-    height: 550px;
+.headerFont {
+    font-family: 'Book Antiqua';
+    font-style: oblique;
+    cursor: pointer;
 }
 
-.rcorners2 {
+.footerDisplay {
     border-radius: 30px;
-    border: 2px solid #73AD21;
+    border: 2px solid darkred;
     padding: 5px;
     width: 600px;
     height: 100px;
+    background-color: white;
+    color: #1a0000;
 }
 
 .navbarInfo {
-    border: 2px solid #73AD21;
+    border: 2px solid darkred;
     border-radius: 30px;
     padding: 7px;
     display: inline-block;
     margin: 5px;
     width: 750px;
-    background-color: #73AD21; /*undo this if you want white background*/
+    background-color: white;
+    color: darkred;
 }
 
-.navbarInfo li {
-    list-style-type: none;
-}
+    .navbarInfo li {
+        list-style-type: none;
+    }
 
-.navbarInfo img{
-    margin: 2px;
-    float: left;
-    max-width: 450px; /* undo this if you want the image larger*/
-}
+    .navbarInfo img{
+        margin: 2px;
+        float: left;
+        max-width: 450px; /* undo this if you want the image larger*/
+    }
 
 ul.navbarBasic {
     font-size: small;
+    cursor: pointer;
 }
-ul.navbarBasic li{
-    list-style-type: none;
-}
+
+    ul.navbarBasic li{
+        list-style-type: none;
+    }

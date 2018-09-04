@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link href="~/css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <menu>
+            <ul>
+            </ul>
+        </menu>
+    </header>
+    <section>
+        <h1 class="headerFont">@ViewBag.Title</h1>
+        @RenderBody()
+    </section>
+
+    <footer>
+        <center>
+            <div class="footerDisplay">
+                <blockquote>Video games are bad for you? That's what they said about rock-and-roll...</blockquote>
+                <blockquote><cite>Shigeru Miyamoto | 宮本滋</cite></blockquote>
+            </div>
+        </center>
+    </footer>
+
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/Index.js"></script>
+
+</body>
+</html>

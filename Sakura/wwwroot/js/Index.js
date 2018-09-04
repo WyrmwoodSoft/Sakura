@@ -1,14 +1,15 @@
 ﻿$(document).ready(function () {
 
-    console.log("Welcome to Wyrmwood Gaming!");
+    console.log("bonjour de la nain rouge ");
 
-    var button = document.getElementById("testButton");
-    button.addEventListener("click", function () {
-        console.log("test click");
-    });
-
-    var navigation = $(".navbarInfo li");
+    var navigation = $(".navbarInfo");
     navigation.on("click", function () {
         console.log("Clicked: " + $(this).text());
+    });
+
+    var navToggle = $(".headerFont");
+    var navContent = $(".navbarBasic");
+    navToggle.on("click", function () {
+        navContent.fadeToggle(500);
     });
 });
